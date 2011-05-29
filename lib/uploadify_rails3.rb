@@ -15,7 +15,7 @@ module UploadifyRails3
       )
 =end      
       ActionView::Helpers::AssetTagHelper.register_javascript_expansion :uploadify => [
-        'uploadify/jquery.uploadify.v2.1.4.min', 
+        'uploadify/jquery.uploadify.v3.0.0.beta.min', 
         'uploadify/swfobject', 
         'uploadify/uploadify_rails3'
       ]
